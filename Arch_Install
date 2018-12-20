@@ -1,0 +1,23 @@
+  #Check or prepare network
+  
+  gdisk /dev/sda 				#Create a primary partion about 512MB // first sector 0 last sector 512M hex code EF00
+  gdisk -l /dev/sda
+  mkfs.vfat /dev/sda1
+  mkfs.ext4 /dev/sda2
+  mount /dev/sda2 /mnt
+  mkdir /mnt/boot
+  mount /dev/sda1 /mnt/boot
+  pacstrap /mnt
+  arch-chroot /mnt/
+  
+  #In to chroot ambient
+  
+  bootctl install
+  cd /boot/loader/
+  nano loader.conf 
+  cd entries/
+  nano arch.conf
+  blkid >> arch.conf 
+  
+  exit
+  reboot
