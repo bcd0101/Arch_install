@@ -1,0 +1,20 @@
+Xft.dpi:	84
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+aterm*loginShell:true
+aterm*transparent:true
+aterm*shading:60
+aterm*background:Black
+aterm*foreground:White
+aterm*scrollBar:false
+aterm*scrollBar_right:true
+aterm*transpscrollbar:true
+aterm*saveLines:32767
+Aterm*geometry: 120x27
+aterm*font:*-*-fixed-medium-r-normal--*-140-*-*-*-*-iso8859-1
+aterm*boldFont:*-*-fixed-bold-r-normal--*-*-140-*-*-*-*-iso8859-1
