@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=evilwm
+Exec=/home/bcd0101/.evil.sh
+Terminal=False
+TryExec=/home/bcd0101/.evil.sh
+Type=Application
